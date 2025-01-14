@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.jpeg" alt="Rens van Hattem" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rens van Hattem">Rens van Hattem</h1>
+
+          <p class="title">Junior cloud engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rens.vanhattem@gmail.com" class="contact-link">rens.vanhattem@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+31628287694" class="contact-link">+31 6 28287694</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="02-07-2002">July 2, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Meteren, Gelderland Netherlands</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am currently pursuing HBO Cybersecurity & Cloud at Hogeschool Utrecht, with a passion for both cloud infrastructure and self-hosted services.
+            Proficient in AWS and Azure, I thrive on creating robust, scalable environments and enjoy the challenge of hands-on tinkering.
+            My portfolio showcases a blend of academic projects and personal explorations, reflecting my commitment to mastering the evolving landscape of cybersecurity and cloud technology.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Architecting</h4>
+
+                <p class="service-item-text">
+                  Scalable, efficient and secure
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Automation</h4>
+
+                <p class="service-item-text">
+                  CI/CD, Terraform/Opentofu and Ansible
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Development</h4>
+
+                <p class="service-item-text">
+                  Go (Golang) and Python
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Networking</h4>
+
+                <p class="service-item-text">
+                  Cisco and Pfsense/OPNsense
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - BLOG
+        -->
+
+        <section class="Certifications">
+
+          <h3 class="h3 Certifications">Certifications</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/terraform.png" alt="Terraform" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>HashiCorp Certified: Terraform Associate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earners of the HashiCorp Certified: Terraform Associate certification know the basic concepts, skills, and
+                    use cases associated with open source HashiCorp Terraform. They understand and can utilize Terraform according
+                    to the certification objectives. Additionally, they understand why enterprises choose to extend Terraform Open Source
+                    with Terraform Enterprise to solve business critical objectives.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/aws-1.png" alt="AWS" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Certified Cloud Practitioner</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earners of this certification have a fundamental understanding of IT services and their uses in
+                    the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are
+                    able to identify essential AWS services necessary to set up AWS-focused projects.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/aws-2.png" alt="AWS" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Certified Solutions Architect - Associate</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earners of this certification have a comprehensive understanding of AWS services and technologies. They
+                    demonstrated the ability to build secure and robust solutions using architectural design principles based on
+                    customer requirements. Badge owners are able to strategically design well-architected distributed systems that
+                    are scalable, resilient, efficient, and fault-tolerant.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/aws-3.png" alt="AWS" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>AWS Academy Cloud Architecting</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earners of this badge have taken the AWS Academy Cloud Architecting course.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/azure-1.png" alt="Microsoft" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Microsoft Certified: Azure Fundamentals</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of
+                    cloud services and how those services are provided with Microsoft Azure.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title> </h4>
+
+              <time datetime="2021-06-14">  </time>
+
+              <div data-modal-text>
+                <p>
+
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="Experience">
+
+          <h3 class="h3 clients-title">Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">O.R.S. Lek en Linge, vestiging de Lingeborgh (VMBO)</h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                The VMBO GL (combined pathway) diploma is
+                a pre-vocational secondary education qualification in the
+                Netherlands, similar to a U.S. high school diploma, with a focus o
+                n both general and vocational training.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Koning Willem 1 College (MBO Level 4)</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                The MBO diploma in Network and Media Management is a secondary vocational
+                education qualification in the Netherlands. This program is equivalent to a post-secondary
+                vocational qualification in the U.S., with a strong emphasis on practical
+                skills and theoretical knowledge in network infrastructure and media management.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hogeschool Utrecht (Bachelor)</h4>
+
+              <span>2021 — Current</span>
+
+              <p class="timeline-text">
+                The Bachelor HBO ICT Cybersecurity and Cloud is a higher professional education
+                degree in the Netherlands, equivalent to a U.S. bachelor's degree. This program
+                focuses on advanced cybersecurity practices and cloud infrastructure management,
+                combining theoretical knowledge with practical skills to prepare students
+                for the dynamic field of information technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ITS Business Management (Indonesia)</h4>
+
+              <span>August 2024 — Nov 2024</span>
+
+              <p class="timeline-text">
+                During my undergraduate studies, I participated in an exchange program between
+                Hogeschool Utrecht and Institut Teknologi Sepuluh Nopember (ITS). This experience
+                offered valuable insights into business operations in high-growth markets and the
+                cultural dynamics that shape corporate environments.
+                I engaged with diverse business practices, enhancing my global perspective and adaptability.
+                Collaborating with local students and industry professionals deepened my understanding of
+                regional market trends and consumer behavior. Overall, this experience equipped me with the
+                skills to navigate complex business landscapes and foster effective cross-cultural relationships.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern Customer Service Team at Interconnect</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                During my internship at Interconnect, I was a part of the Customer Service Team (CST),
+                where I played a key role in managing customer support operations. My responsibilities
+                included responding to customer tickets, addressing their inquiries, and providing timely
+                resolutions.
+                Additionally, I coordinated with other departments, such as engineering and sales, t
+                o escalate and forward tickets requiring specialized support. This experience honed my
+                communication and problem-solving skills, ensuring a seamless customer service experience
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internal IT Support and Internship at Swisscom</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                During my job and internship at Swisscom, I was a part of the internal IT support team
+                at the Swisscom DevOps Center in Rotterdam. My daily tasks involved managing the network,
+                utilizing Cisco networking appliances, and ensuring the proper functioning of devices
+                such as laptops for developers. This role allowed me to gain hands-on experience in network
+                management and IT support, contributing to the seamless operation of the development environment.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cloud Engineer Intership at Sue</h4>
+
+              <span>2024 — Current</span>
+
+              <p class="timeline-text">
+                During my internship at Sue Cloud Native Solutions, I was part of the incubator team where
+                I worked on an individual project focused on generating Terraform configuration and countering
+                configuration drift for cloud resources. This role enabled me to deepen my understanding of
+                infrastructure as code and develop solutions to maintain consistency and reliability in
+                cloud environments.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud infrastructure</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Networking</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Containerization</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Development</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Infrastructure </button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Automation</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Infrastructure</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Automation</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/k3s.png" alt="Infrastructure" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Air-gapped K3s Automated deployment using Ansible</h3>
+
+                <p class="project-category">Infrastructure</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/terraform.svg" alt="Automation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Automatic Terraform configuration generation</h3>
+
+                <p class="project-category">Automation</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Amazon-Redshift.webp" alt="Development" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data warehouse solutions using Amazon Redshift</h3>
+
+                <p class="project-category">Development</p>
+
+              </a>
+
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Infrastructure">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/turing.png" alt="Development" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Raspberry Pi CM4 cluster with Turing Pi2</h3>
+
+                <p class="project-category">Infrastructure</p>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/homelab.png" alt="" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Infrastructure</p>
+
+                    <time datetime="2022-02-23"> </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Why are homelabs important</h3>
+
+                  <p class="blog-text">
+
+                  </p>
+
+                </div>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19710.963035007255!2d5.271867510853041!3d51.86332305135374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6f5cc822e248d%3A0x1d1aeabb09746385!2sMeteren!5e0!3m2!1snl!2snl!4v1717592353751!5m2!1snl!2snl"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact me</h3>
+
+          <section class="about-text">
+            <p>
+              If you have any questions or would like to discuss recruitment opportunities,
+              please feel free to reach out to me through the contact information provided on the contact panel.
+            </p>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
